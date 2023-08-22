@@ -46,7 +46,7 @@ int print_string(va_list args, char buff[],
 		if (prec >= 6)
 			str = "      ";
 	}
-	
+
 	while (str[len] != '\0')
 		len++;
 	if (prec >= 0 && prec < len)
@@ -157,7 +157,7 @@ int print_binary(va_list args, char buff[],
 	unsigned int n, m, i, sum;
 	unsigned int a[32];
 	int count;
-	
+
 	UNUSED(buff);
 	UNUSED(fl);
 	UNUSED(w);
